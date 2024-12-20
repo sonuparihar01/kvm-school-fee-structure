@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KVM Kids Zone 
+School Fee Structure</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Main Content */
+        main {
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .class-options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .class-button {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .class-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>School Fee Structure</h1>
+        <p>Select a class to view its fee structure:</p>
+    </header>
+    <main>
+        <div class="class-options">
+            <a href="2.jpg" target="C:\Users\Admin\Desktop\school fee structure" class="class-button">Class 1</a>
+            <a href="3.jpg" target="C:\Users\Admin\Desktop\school fee structure" class="class-button">Class 2</a>
+            <a href="jogi_vc.pdf" target="C:\Users\Admin\Desktop\school fee structure" class="class-button">Class 3</a>
+            <a href="vc.jpg" target="C:\Users\Admin\Desktop\school fee structure" class="class-button">Class 4</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 School Name</p>
+    </footer>
+</body>
+</html>
